@@ -3,10 +3,10 @@ spring:
     config:
       server:
         native:
-          # Fore linux
-          searchLocations : file:/mnt/c/Projects/JAVA/melon_clone_project/config-repo
-        #   # For Window
-        #    searchLocations : file:///mnt/c/Projects/JAVA/melon_clone_project/config-repo
+          # # Fore linux
+          # searchLocations : file:/mnt/c/Projects/JAVA/melon_clone_project/config-repo
+          # For Window
+           searchLocations : file:///c:/Projects/JAVA/melon_clone_project/config-repo
         # git:
         #   uri: file://mnt/c/Projects/JAVA/melon_clone_project/config-repo
 server:
