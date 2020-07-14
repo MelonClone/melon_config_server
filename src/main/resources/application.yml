@@ -2,13 +2,13 @@ spring:
   cloud:
     config:
       server:
-        native:
+        # native:
           # # Fore linux
           # searchLocations : file:/mnt/c/Projects/JAVA/melon_clone_project/config-repo
-          # For Window
-           searchLocations : file:///c:/Projects/JAVA/melon_clone_project/config-repo
-        # git:
-        #   uri: file://mnt/c/Projects/JAVA/melon_clone_project/config-repo
+          # # For Window
+          #  searchLocations : file:///c:/Projects/JAVA/melon_clone_project/config-repo
+        git:
+          uri: https://github.com/MelonClone/melon_config_repo
 server:
   port: 8888
 
