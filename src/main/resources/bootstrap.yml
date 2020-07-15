@@ -1,5 +1,3 @@
 spring:
   application:
     name: configserver
-  # profiles:
-  #   active: native

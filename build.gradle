@@ -33,6 +33,7 @@ test {
 	useJUnitPlatform()
 }
 
+// For docker jar
 task copyJar(type: Copy) {
 	from 'build/libs'
 	into 'docker' 
