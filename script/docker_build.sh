@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-./gradlew build
+./gradlew clean build
 docker build -t melon-config-server:latest .
 docker container stop config-server
 docker container rm config-server
